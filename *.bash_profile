@@ -6,9 +6,6 @@ export BUNDLER_EDITOR=sublime
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
-export AWS_ACCESS_KEY_ID=AKIAJCFQ7HGKUSKRHQKA
-export AWS_SECRET_ACCESS_KEY=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
-
 alias work="cd ~/Sites/work; ls"
 alias personal="cd ~/Sites/personal; ls"
 
