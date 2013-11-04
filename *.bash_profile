@@ -2,12 +2,6 @@ export NODE_PATH="/usr/local/lib/node"
 export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/share/npm/bin:$PATH"
 export BUNDLER_EDITOR=sublime
 
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
-
-export AWS_ACCESS_KEY_ID=AKIAJCFQ7HGKUSKRHQKA
-export AWS_SECRET_ACCESS_KEY=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
-
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
 . $(brew --prefix)/etc/bash_completion
 fi
