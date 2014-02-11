@@ -1,5 +1,3 @@
-export NODE_PATH="/usr/local/lib/node"
-export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/share/npm/bin:$PATH"
 export BUNDLER_EDITOR=sublime
 
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
