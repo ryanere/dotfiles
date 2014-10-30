@@ -22,4 +22,7 @@ alias show="defaults write com.apple.finder AppleShowAllFiles TRUE; killall Find
 alias hide="defaults write com.apple.finder AppleShowAllFiles FALSE; killall Finder"
 
 alias sublime="open /Applications/Sublime\ Text\ 2.app/"
+alias spec="bundle exec rspec --color --format d"
+alias rake="bundle exec rake"
+alias rails="bundle exec rails"
 
