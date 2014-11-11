@@ -4,11 +4,11 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
 . $(brew --prefix)/etc/bash_completion
 fi
 
-
+# install first - curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh -o ~/.git-prompt.sh
+source ~/.git-prompt
 function parse_git_dirty {
   [[ $(git status 2> /dev/null | tail -n1) != "nothing to commit, working directory clean" ]] && echo " *"
 }
-
 export PS1='\[\033[01;35m\]\W\[\033[01;37m\]$(__git_ps1 " %s")\[\033[00m\]$(parse_git_dirty) '
 
 
