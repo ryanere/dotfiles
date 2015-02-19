@@ -1,5 +1,6 @@
 export BUNDLER_EDITOR=sublime
 
+# intall first - brew install git bash-completion
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
 . $(brew --prefix)/etc/bash_completion
 fi
